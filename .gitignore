@@ -1,9 +1,8 @@
 # Dependency directories
 node_modules/
 jspm_packages/
-
-sample.html/
-sample_assets/
-
+assets/
+.env
+sample.html
 README_copy.md/
-assets
+
