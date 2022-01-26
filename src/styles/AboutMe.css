@@ -1,0 +1,24 @@
+
+.aboutme ol{
+    max-width: 55%;
+    list-style-type: disc;
+    margin: auto;
+    line-height: 1.5rem;
+}
+
+
+.profile{
+    display: inline;
+    width: 15rem;
+    border-radius: 140px;
+    margin: 15px;
+    border: var(--backgroundcolor) solid 5px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+span {
+    font-size: 150%;
+    font-weight: bolder;
+    color: red;
+    text-shadow: 2px 2px 2px gray;
+}

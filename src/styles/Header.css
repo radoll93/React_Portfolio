@@ -1,0 +1,50 @@
+/* header style & background image */
+
+header{
+    background-color: var(--backgroundcolor);
+    color: white;
+}
+
+.header h1{
+    padding: 20px;
+    display: block;
+    margin-left: 50 px;
+}
+
+.header ul{
+    display: inline-block;
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 55px;
+}
+
+.header li{
+    float: left;
+    margin: 10px;
+    line-height: 2rem;
+    font-family: Geneva
+}
+
+.header a{
+    color: wheat;
+    text-decoration: none;
+    }
+
+.header img {
+    display: flexbox;
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url("./images/background.jpg");
+}
+
+.subtitle{
+    position: relative;
+    top: -100px;
+    background-color: var(--backgroundcolor);
+    padding: 7px;
+    margin-right: 20px;
+    line-height: 1.5rem;
+    text-align: right;
+}

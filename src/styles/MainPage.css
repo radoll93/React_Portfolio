@@ -1,0 +1,44 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+:root{
+    --backgroundcolor:rgb(33, 41, 85);
+}
+
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: fantasy;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+/* main contents */
+.main section{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+/* navigation style, font change */
+nav{
+    font-family: fantasy;
+    width: 15%;
+    word-wrap: wrap;
+    padding: 15px;
+    margin: 10px;
+    border-right: var(--backgroundcolor) solid 7px;
+}

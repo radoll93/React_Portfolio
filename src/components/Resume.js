@@ -2,9 +2,9 @@ import React from "react"
 
 function Resume() {
     return (
-        <section class="resume">
+        <section className="resume">
         <nav id="resume"><h2>Resume</h2></nav>
-        <button>  Click me to see my resume </button>
+        <a href="https://www.linkedin.com/in/bora-lee-7a9a15153/">  Click me to see my resume </a>
 
     </section>
     )}
