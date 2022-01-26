@@ -12,7 +12,7 @@ function AboutMe() {
         <span> WHY Coding?</span> 
             I am a growing seeker. I love to learn new skills continually.
             
-    <img className="profile" src="../../assets/images/profile_image.jpg" alt="profile photo"></img>
+    {/* <img className="profile" src="../../assets/images/profile_image.jpg" alt="profile photo"></img> */}
     
     </div>  
 
