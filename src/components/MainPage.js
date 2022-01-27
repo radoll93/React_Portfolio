@@ -6,22 +6,18 @@ import Header from './Header';
 import Resume from './Resume';
 import Work from './Work';
 import Footer from './Footer';
-import Container from './Container';
 import '../styles/MainPage.css'
-import ContactMe from './Contactme';
+
 
 
 const MainPage = () => {
 
     const [page, setPage] = useState('Header');
 
-    // const {className} = page.props
-    // console.log(className)
-
     
   const renderPage = () => {
     if (page === '') {
-      return <Header />;
+      return;
     }
     if (page === 'Aboutme') {
       return <AboutMe />;

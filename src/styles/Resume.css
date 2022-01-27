@@ -1,0 +1,34 @@
+
+.resume button {
+    margin: 30px;
+    padding: 10px;
+    background-color: wheat;
+    color:var(--backgroundcolor);
+    font-family:fantasy;
+    font-size: 1.5rem;
+    cursor: grab;
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+    align-self: center;
+}
+
+/* button effect to hover and active  */
+
+.resume button:hover{
+    background-color: var(--backgroundcolor);
+    color: wheat;
+}
+
+.resume button:active{
+    font-size: 30px;
+    box-shadow: 0 0 10px #000 inset;
+}
+
+/* button click pseudo- coming soon! */
+.resume button:focus::after {
+    content: " -> coming soon!";
+    background-color: transparent;
+    color: red;
+
+}
+

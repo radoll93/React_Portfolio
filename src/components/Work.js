@@ -3,11 +3,12 @@ import '../styles/Work.css'
 
 function Work() {
     return (
-    <div className="work">
-        <div className="header"><h2>Work</h2></div> 
+    <section className="work">
+        <nav id="work"><h2>Work</h2></nav> 
         <div className="workbox">
+            <p>This is my projects from GA Tech BootCamp!</p>
             <button id="workboxbtn"> <a href="https://github.com/schristinelagrange/lifePlanner/"> 
-            {/* <img src="../assets/images/LifePlanner.PNG" > </img> */}
+            <img src={require("../styles/images/LifePlanner.PNG")} /> 
                 <section className="details">
                     <h4> Project1_LifePlanner </h4>
                     <p >Deployed Page: https://schristinelagrange.github.io/lifePlanner/ </p>
@@ -16,21 +17,21 @@ function Work() {
 
 
             <button id="workboxbtn"> <a href="https://github.com/sadiyan/golf-score/"> 
-            {/* <img src="./assets/images/GolfScore.PNG" > </img> */}
+                <img src={require("../styles/images/GolfScore.PNG") } />
                 <section className="details">
                     <h4> Project2_GolfScore </h4>
                     <p >Deployed Page: https://evening-thicket-48303.herokuapp.com/ </p>
                 </section></a>
             </button>
             <button id="workboxbtn"> <a href="https://github.com/radoll93/Homework14_TechBlog"> 
-            {/* <img src="./assets/images/TechBlog.PNG" > </img> */}
+        <img src={require("../styles/images/TechBlog.PNG")} />
                 <section className="details">
                 <h4>Homework_TechBlog</h4>
                 <p >Deployed Page: https://limitless-ocean-39625.herokuapp.com/ </p>
             </section> </a>
             </button>  
         </div>
-    </div>
+    </section>
 );
 }
 

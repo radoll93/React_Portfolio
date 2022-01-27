@@ -42,3 +42,44 @@ nav{
     margin: 10px;
     border-right: var(--backgroundcolor) solid 7px;
 }
+
+ol,
+ul {
+  list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 100%;
+  }
+  
+  input,
+  select,
+  option,
+  optgroup,
+  textarea,
+  button {
+    font-size: 100%;
+    font-family: inherit;
+  }
+  

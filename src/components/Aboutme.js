@@ -3,8 +3,9 @@ import '../styles/AboutMe.css'
 
 function AboutMe() {
   return (
-    <div className="aboutme">
-        <div className="header"><h2>About Me</h2></div>
+    <section className="aboutme">
+        <nav id="aboutme"><h2>About Me</h2></nav>
+            <p>Let me introduce myself!</p>
         <ol>
           <li>(2012-2017) Bachelor from business administration major.</li>
           <li>(2017-2021) Worked at the investment management company in global fund accounting division, dealing with various financial assets such as securities, futures, bonds and fx forward. </li>
@@ -15,9 +16,9 @@ function AboutMe() {
           <span> WHY Coding?</span> 
           I am a growing seeker. I love to learn new skills continually.
         </ol>  
-        <img src="../styles/images/profilephoto.jpg" className="profile" alt="profile photo"></img>
+        <img src={require("../styles/images/profilephoto.jpg")} className="profile" alt="profile photo"></img>
     
-    </div>  
+    </section>  
 
 );
 }

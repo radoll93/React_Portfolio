@@ -9,6 +9,7 @@ header{
     padding: 20px;
     display: block;
     margin-left: 50 px;
+    cursor: grab;
 }
 
 .header ul{

@@ -6,7 +6,7 @@ function Header({page, setPage}) {
     return (
     <div>
         <header className="header">
-        <h1>Bora Lee</h1>
+        <h1 onClick={() => setPage('')}>Bora Lee</h1>
         <ul>
             <li> 
                 <a href="#Aboutme"
