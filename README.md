@@ -7,7 +7,10 @@
 It is my portfolio page created using react components. It shows my brief introduction, my projects, contact information and linkedIn link.
 
 
-[Portfolio](./src/styles/images/react_app.gif)
+![Portfolio](./src/styles/images/react_app.gif)
+
+Deployed Page: https://github.com/radoll93/Homework20_ReactPortfolio/settings/pages
+
 
 ## Table of Contents 
 
