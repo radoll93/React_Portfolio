@@ -10,27 +10,31 @@ function Header({page, setPage}) {
         <ul>
             <li> 
                 <a href="#Aboutme"
-                    onClick={() => setPage('Aboutme')}>
+                    onClick={() => setPage('Aboutme')}
+                    className={page === 'Aboutme' ? 'nav-link active' : 'nav-link'}>
                     About Me
                 </a> 
             </li>
 
             <li> 
                 <a href="#Work"
-                    onClick={() => setPage('Work')}> 
+                    onClick={() => setPage('Work')}
+                    className={page === 'Work' ? 'nav-link active' : 'nav-link'}> 
                     Work
                 </a> 
             </li>
             
             <li> 
                 <a href="#Contactme"
-                    onClick={() => setPage('Contactme')}>
+                    onClick={() => setPage('Contactme')}
+                    className={page === 'Contactme' ? 'nav-link active' : 'nav-link'}>
                     Contact Me
                 </a> 
             </li>
             <li> 
                 <a href="#Resume"
-                    onClick={() => setPage('Resume')}>
+                    onClick={() => setPage('Resume')}
+                    className={page === 'Resume' ? 'nav-link active' : 'nav-link'}>
                     Resume
                 </a>
             </li>

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Homework20_ReactPortfolio/static/css/main.aadc4669.css",
+    "main.js": "/Homework20_ReactPortfolio/static/js/main.ae8bf29d.js",
+    "static/media/GolfScore.PNG": "/Homework20_ReactPortfolio/static/media/GolfScore.2228a978842c0cef741a.PNG",
+    "static/media/background.jpg": "/Homework20_ReactPortfolio/static/media/background.28ed3f272c8baba2dd18.jpg",
+    "static/media/profilephoto.jpg": "/Homework20_ReactPortfolio/static/media/profilephoto.ae24dd0ec27bc5b653c6.jpg",
+    "static/media/LifePlanner.PNG": "/Homework20_ReactPortfolio/static/media/LifePlanner.e119ab409b1655e42551.PNG",
+    "static/media/TechBlog.PNG": "/Homework20_ReactPortfolio/static/media/TechBlog.702b01cc890ccbb54745.PNG",
+    "index.html": "/Homework20_ReactPortfolio/index.html",
+    "main.aadc4669.css.map": "/Homework20_ReactPortfolio/static/css/main.aadc4669.css.map",
+    "main.ae8bf29d.js.map": "/Homework20_ReactPortfolio/static/js/main.ae8bf29d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aadc4669.css",
+    "static/js/main.ae8bf29d.js"
+  ]
+}
