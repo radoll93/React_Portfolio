@@ -9,7 +9,7 @@ It is my portfolio page created using react components. It shows my brief introd
 
 ![Portfolio](./src/styles/images/react_app.gif)
 
-Deployed Page: https://github.com/radoll93/Homework20_ReactPortfolio/settings/pages
+Deployed Page: https://radoll93.github.io/Homework20_ReactPortfolio/
 
 
 ## Table of Contents 
